@@ -1,0 +1,6 @@
+streamlit
+transformers
+torch
+pdfminer.six
+nltk
+pandas
