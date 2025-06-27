@@ -14,7 +14,7 @@ if "qa_model" not in st.session_state or "summarizer" not in st.session_state:
         st.stop()
 
 # Configure Gemini
-genai.configure(api_key=st.secrets["AIzaSyD4_fhSTmCWNv9cliAn4i_Fny9wxSMrkTk"])
+genai.configure(api_key=st.secrets["gemini_api_key"])
 
 # Extract text from uploaded document
 def extract_content(uploaded_file):
