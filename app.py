@@ -122,7 +122,7 @@ if uploaded_file:
                             correct_count += 1
                         else:
                             st.error(f"Q{idx+1}: Incorrect.")
-                            with st.expander("View Model's Answer"):
+                            with st.expander("View Answer"):
                                 st.info(model_answer)
                     except Exception as e:
                         st.error(f"Error evaluating Q{idx+1}")
