@@ -4,3 +4,4 @@ torch
 pdfminer.six
 nltk
 pandas
+google-generativeai
